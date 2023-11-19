@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [XMLParserSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="test for XML Parser with valid file 1(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testValidParser" invocation-numbers="0">
+            <parameter name="validFile" value="D:\At1Project\xmlParser\src\main\resources\test_cdata.xml"/>
+          </include> <!-- testValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with valid file 1(failed) -->
+  <test thread-count="5" name="test for XML Parser with valid file 2(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testValidParser" invocation-numbers="0">
+            <parameter name="validFile" value="D:\At1Project\xmlParser\src\main\resources\test_comment.xml"/>
+          </include> <!-- testValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with valid file 2(failed) -->
+  <test thread-count="5" name="test for XML Parser with valid file 4(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testValidParser" invocation-numbers="0">
+            <parameter name="validFile" value="D:\At1Project\xmlParser\src\main\resources\test_with_instruction.xml"/>
+          </include> <!-- testValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with valid file 4(failed) -->
+  <test thread-count="5" name="test for XML Parser with invalid file 1(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testInValidParser" invocation-numbers="0">
+            <parameter name="inValidFile" value="D:\At1Project\xmlParser\src\main\resources\test_atribute_error.xml"/>
+          </include> <!-- testInValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with invalid file 1(failed) -->
+  <test thread-count="5" name="test for XML Parser with invalid file 2(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testInValidParser" invocation-numbers="0">
+            <parameter name="inValidFile" value="D:\At1Project\xmlParser\src\main\resources\test_attr_error.xml"/>
+          </include> <!-- testInValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with invalid file 2(failed) -->
+  <test thread-count="5" name="test for XML Parser with invalid file 3(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testInValidParser" invocation-numbers="0">
+            <parameter name="inValidFile" value="D:\At1Project\xmlParser\src\main\resources\test_symbols.xml"/>
+          </include> <!-- testInValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with invalid file 3(failed) -->
+  <test thread-count="5" name="test for XML Parser with invalid file 4(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testInValidParser" invocation-numbers="0">
+            <parameter name="inValidFile" value="D:\At1Project\xmlParser\src\main\resources\test_symbols_2.xml"/>
+          </include> <!-- testInValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with invalid file 4(failed) -->
+  <test thread-count="5" name="test for XML Parser with invalid file 5(failed)" verbose="0">
+    <classes>
+      <class name="parser.XMLParserTest">
+        <methods>
+          <include name="testInValidParser" invocation-numbers="0">
+            <parameter name="inValidFile" value="D:\At1Project\xmlParser\src\main\resources\test_with_self_closing_root.xml"/>
+          </include> <!-- testInValidParser -->
+        </methods>
+      </class> <!-- parser.XMLParserTest -->
+    </classes>
+  </test> <!-- test for XML Parser with invalid file 5(failed) -->
+</suite> <!-- Failed suite [XMLParserSuite] -->
