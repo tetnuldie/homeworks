@@ -38,6 +38,7 @@
                     <suiteXmlFiles>
                         <!-- сюда пишем наши сьюты -->
                         <suiteXmlFile>parser_testng.xml</suiteXmlFile>
+                        <suiteXmlFile>mydll_testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
